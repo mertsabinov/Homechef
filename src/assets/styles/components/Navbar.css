@@ -1,0 +1,76 @@
+.navbar {
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+
+/* navbar left side */
+.navbar-left-side {
+    width: 25%;
+}
+/* navbar left side end */
+
+/* navbar center side */
+.navbar-center-side {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-center-side a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.navbar-center-side a:hover {
+    font-weight: bold;
+}
+
+/* navbar center side end */
+
+/* navbar right side */
+.navbar-right-side{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#btn-login {
+    width: 50%;
+    border: none;
+    background-color: transparent;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#btn-login:hover {
+    text-decoration: underline;
+}
+
+#btn-sign-up {
+    width: 50%;
+    border: none;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#btn-sign-up:hover{
+    background-color: #EBEBEB;
+}
+
+/* navbar right  side end */
