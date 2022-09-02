@@ -74,3 +74,137 @@
 }
 
 /* navbar right  side end */
+
+/* hamburher menu */
+.hamburger-menu {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    /* navbar */
+    .navbar{
+        visibility: hidden;
+    }
+    .navbar-left-side{
+        visibility: hidden;
+    }
+
+    .navbar-center-side {
+        visibility: hidden;
+    }
+
+    .navbar-right-side {
+        visibility: hidden;
+    }
+    /* navbar open */
+    .navbar-open{
+        height: 100vh;
+        background-color: #EBEBEB;
+        flex-direction: column;
+        text-align: center;
+        transition-duration: 0.1s;
+    }
+    .navbar-left-side-open{
+        visibility: hidden;
+    }
+
+    .navbar-center-side-open {
+        margin-top: 10%;
+    }
+
+    .navbar-center-side-open a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 3.5rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .navbar-right-side-open {
+        width: 100%;
+        flex-direction: column;
+    }
+    #btn-login {
+        font-size: 3.5rem;
+        margin-top: 10%;
+    }
+
+    #btn-sign-up {
+        margin-top: 10%;
+        font-size: 2.5rem;
+    }
+    /* navbar open end */
+
+    /* hamburger menu */
+    .hamburger-menu {
+        visibility: visible;
+        position: absolute;
+        left: 80%;
+        right: 1%;
+        top: 3vh
+    }
+
+    .hamburger-menu div:nth-child(1){
+        height: 0.5vh;
+        width: 50%;
+        background-color: black;
+        margin-top: 10%;
+    }
+
+    .hamburger-menu div:nth-child(2){
+        height: 0.5vh;
+        width: 50%;
+        background-color: black;
+        margin-top: 10%;
+    }
+
+    .hamburger-menu div:nth-child(3){
+        height: 0.5vh;
+        width: 50%;
+        background-color: black;
+        margin-top: 10%;
+    }
+    /* hamburger menu end */
+
+    /* hamburger menu open */
+  .hamburger-menu-open {
+      position: absolute;
+      left: 80%;
+      right: 1%;
+      height: 10vh;
+  }
+
+    .hamburger-menu-open div:nth-child(1){
+        height: 0.5vh;
+        width: 100%;
+        background-color: black;
+        visibility: hidden;
+    }
+
+    .hamburger-menu-open div:nth-child(2){
+        position: absolute;
+        top: 5vh;
+        left: 0;
+        right: 0;
+        height: 0.5vh;
+        width: 50%;
+        background-color: black;
+        transform: rotate(-55deg);
+        transition-duration: 0.5s;
+    }
+
+    .hamburger-menu-open div:nth-child(3){
+        position: absolute;
+        top: 5vh;
+        left: 0;
+        right: 0;
+        height: 0.5vh;
+        width: 50%;
+        background-color: black;
+        transform: rotate(55deg);
+        transition-duration: 0.5s;
+    }
+}
