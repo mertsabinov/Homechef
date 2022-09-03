@@ -16,6 +16,7 @@ const Navbar = () => {
     return (
         <div>
             <div
+                data-testid='hamburger-menu'
                 className={`${active ? "hamburger-menu-open":"hamburger-menu"}`}
                 onClick={() => activeHandler(active)}
             >
@@ -23,17 +24,29 @@ const Navbar = () => {
                 <div></div>
                 <div></div>
             </div>
-            <div className={`${active ? "navbar-open":"navbar"}`}>
-                <div className={`${active ? "navbar-left-side-open":"navbar-left-side"}`}>
+            <div
+                className={`${active ? "navbar-open":"navbar"}`}
+                 data-testid='navbar'
+            >
+                <div
+                    className={`${active ? "navbar-left-side-open":"navbar-left-side"}`}
+                    data-testid='navbar-left-side'
+                >
                     <img src={logo} alt='logo' />
                 </div>
-                <div className={`${active ? "navbar-center-side-open":"navbar-center-side"}`}>
+                <div
+                    className={`${active ? "navbar-center-side-open":"navbar-center-side"}`}
+                    data-testid='navbar-center-side'
+                >
                     <a href='#shop'>Shop</a>
                     <a href='#features'>Features</a>
                     <a href='#recipes'>Recipes</a>
                     <a href='#hotline' >Hotline</a>
                 </div>
-                <div className={`${active ? "navbar-right-side-open":"navbar-right-side"}`}>
+                <div
+                    className={`${active ? "navbar-right-side-open":"navbar-right-side"}`}
+                    data-testid='navbar-right-side'
+                >
                     <button id='btn-login'>
                         Login
                     </button>
