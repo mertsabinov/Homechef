@@ -98,11 +98,13 @@
     }
     /* navbar open */
     .navbar-open{
-        height: 100vh;
+        position: absolute;
+        height: 100%;
+        width: 100%;
         background-color: #EBEBEB;
         flex-direction: column;
         text-align: center;
-        transition-duration: 0.1s;
+        z-index: 1;
     }
     .navbar-left-side-open{
         visibility: hidden;
@@ -175,6 +177,7 @@
       left: 80%;
       right: 1%;
       height: 10vh;
+      z-index: 2;
   }
 
     .hamburger-menu-open div:nth-child(1){
