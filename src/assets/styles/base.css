@@ -19,3 +19,13 @@
     background-size: 100%;
     background-position: top;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .base-bg{
+        padding: 0;
+        margin: 0;
+        background-size: 150vh;
+        background-position: center top;
+    }
+}

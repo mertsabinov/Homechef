@@ -1,0 +1,24 @@
+
+/* header container */
+
+.header-container {
+    margin-left: 5%;
+}
+
+.header-container p{
+    font-size: 4.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.header-container p:nth-child(2) {
+    margin-left: 5%;
+}
+
+/* header container end */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .header-container p:nth-child(2){
+        margin-left: 0;
+    }
+}
