@@ -3,6 +3,7 @@ import './assets/styles/base.css'
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import SectionLeftSide from "./components/SectionLeftSide";
+import SectionCenterSide from "./components/SectionCenterSide";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
               <Header/>
               <section>
                   <SectionLeftSide/>
+                  <SectionCenterSide/>
               </section>
           </div>
       </div>
