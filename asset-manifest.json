@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca218ad3.css",
+    "main.js": "/static/js/main.d6e5cab5.js",
+    "static/media/salad-card.svg": "/static/media/salad-card.8373f02258719dedd921b853f69e099c.svg",
+    "static/media/food.svg": "/static/media/food.d3967613bc73ea8ab1638b8294f1347c.svg",
+    "static/media/pasta.svg": "/static/media/pasta.195e7d6fc3c41e2249d32ee46f4bc036.svg",
+    "static/media/banner.svg": "/static/media/banner.63f1475225755b773ae4.svg",
+    "static/media/salad.svg": "/static/media/salad.c614512f9dbe182a96f2f90fd0843aeb.svg",
+    "static/media/recipes.svg": "/static/media/recipes.346003c557a694277ff822543364bdf7.svg",
+    "static/media/pizza.svg": "/static/media/pizza.18ce523dcb62ce0b9f54699bdb1cfd5f.svg",
+    "static/media/dessert.svg": "/static/media/dessert.6536a2465dfcdc8c75efb03462f8e6dd.svg",
+    "static/media/logo.svg": "/static/media/logo.7f7eb8e8f82a2ff8b0bbea819d31451a.svg",
+    "static/media/cocktails.svg": "/static/media/cocktails.10acff9467195052a061603a3d85ac2c.svg",
+    "static/media/noodle.svg": "/static/media/noodle.1ba8cc7f2b707f7238e04e675b878cfb.svg",
+    "static/media/search.svg": "/static/media/search.3297b2a19269c8751da6.svg",
+    "static/media/card-footer.svg": "/static/media/card-footer.31ac391c205dc2dd62436560d49b53b0.svg",
+    "index.html": "/index.html",
+    "main.ca218ad3.css.map": "/static/css/main.ca218ad3.css.map",
+    "main.d6e5cab5.js.map": "/static/js/main.d6e5cab5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca218ad3.css",
+    "static/js/main.d6e5cab5.js"
+  ]
+}
