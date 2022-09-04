@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import SectionLeftSide from "./components/SectionLeftSide";
 import SectionCenterSide from "./components/SectionCenterSide";
+import SectionRightSide from "./components/SectionRightSide";
 
 const App = () => {
   return (
@@ -14,7 +15,9 @@ const App = () => {
               <section>
                   <SectionLeftSide/>
                   <SectionCenterSide/>
+                  <SectionRightSide/>
               </section>
+              <footer></footer>
           </div>
       </div>
   )
