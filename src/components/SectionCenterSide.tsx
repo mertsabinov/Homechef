@@ -9,7 +9,7 @@ const SectionCenterSide = () => {
                 placeholder='Search recipes and more...'
             />
             <div className='section-center-side-card' >
-                    <img src={food} alt={food} />
+                    <img src={food} alt='food' />
                 <div>
                     <h3>Citrus Salad with berries</h3>
                     <p>
