@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-y: hidden;
 }
 
-.base-container {
-    height: 100vh;
+
+html,body {
     width: 100%;
-    background-color: #EBEBEB;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 .base-bg {
@@ -20,6 +22,14 @@
     background-position: top;
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .base-bg{
@@ -27,5 +37,11 @@
         margin: 0;
         background-size: 150vh;
         background-position: center top;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30%;
     }
 }
