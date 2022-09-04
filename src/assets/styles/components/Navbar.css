@@ -147,6 +147,7 @@
         left: 80%;
         right: 1%;
         top: 3vh;
+        z-index: 3;
     }
 
     .hamburger-menu div:nth-child(1){
