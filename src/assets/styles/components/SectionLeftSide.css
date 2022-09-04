@@ -1,0 +1,38 @@
+/* section left side */
+
+.section-left-side {
+    width: 25%;
+}
+
+.section-left-side ul {
+    list-style: none;
+}
+
+.section-left-side li img {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.section-left-side li {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid darkgray;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.section-left-side li:hover {
+    border-color: transparent;
+    background-color: #FEBD2F;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .section-left-side {
+        width: 100%;
+    }
+}
