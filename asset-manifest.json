@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Homechef/static/css/main.0c2c674b.css",
-    "main.js": "/Homechef/static/js/main.5ec1b345.js",
+    "main.js": "/Homechef/static/js/main.658897a3.js",
     "static/media/salad-card.svg": "/Homechef/static/media/salad-card.8373f02258719dedd921b853f69e099c.svg",
     "static/media/food.svg": "/Homechef/static/media/food.d3967613bc73ea8ab1638b8294f1347c.svg",
     "static/media/pasta.svg": "/Homechef/static/media/pasta.195e7d6fc3c41e2249d32ee46f4bc036.svg",
@@ -17,10 +17,10 @@
     "static/media/card-footer.svg": "/Homechef/static/media/card-footer.31ac391c205dc2dd62436560d49b53b0.svg",
     "index.html": "/Homechef/index.html",
     "main.0c2c674b.css.map": "/Homechef/static/css/main.0c2c674b.css.map",
-    "main.5ec1b345.js.map": "/Homechef/static/js/main.5ec1b345.js.map"
+    "main.658897a3.js.map": "/Homechef/static/js/main.658897a3.js.map"
   },
   "entrypoints": [
     "static/css/main.0c2c674b.css",
-    "static/js/main.5ec1b345.js"
+    "static/js/main.658897a3.js"
   ]
 }
