@@ -1,0 +1,28 @@
+/* section right side */
+.section-right-side{
+    width: 25%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.section-right-side select{
+    background-color: transparent;
+    border: 1px solid darkgrey;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+/* section right side end */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .section-right-side {
+        margin: 10% 0 0 0;
+        width: 100%;
+    }
+
+    .section-right-side select {
+        width: 100%;
+    }
+}

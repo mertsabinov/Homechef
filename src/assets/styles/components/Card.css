@@ -1,0 +1,71 @@
+/* card */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 10%;
+    height: 15vh;
+}
+
+.card-container img {
+    position: absolute;
+    z-index: 1;
+}
+
+.card-right-side {
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    left: 25%;
+    right: 0;
+    z-index: 0;
+    padding: 10% 10% 10% 30%;
+    text-align: start;
+}
+
+/* card footer */
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+
+.card-footer div p {
+    margin-top: 10%;
+}
+
+.card-footer div:nth-child(2){
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: white;
+    padding-left: 5%;
+    margin-left: 5%;
+}
+/* card footer end */
+
+/* card end */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card-container {
+        flex-direction: column;
+        background-color: black;
+        border-radius: 25px;
+        font-size: 1.5rem;
+        height: 70vh;
+    }
+
+    .card-container img {
+        position: relative;
+    }
+
+    .card-right-side {
+        position: relative;
+        background-color: transparent;
+        text-align: start;
+        padding-left: 0;
+        padding-top: 0%;
+    }
+}

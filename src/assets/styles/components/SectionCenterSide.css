@@ -1,0 +1,103 @@
+/* section center side */
+
+.section-center-side {
+    width: 50%;
+}
+
+.section-center-side input {
+    width: 100%;
+    background-image: url("../../images/search.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: start;
+    background-color: transparent;
+    padding: 2% 2% 2% 30px;
+    border: 1px solid  darkgray;
+    border-radius: 25px;
+    font-size: 1.5rem;
+}
+
+/* section center side card */
+.section-center-side-card{
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-center-side-card img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+.section-center-side-card div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    width: 50%;
+}
+
+.section-center-side-card div h3 {
+    font-size: 2.5rem;
+}
+
+.section-center-side-card div p {
+    margin-top: 10%;
+}
+
+/* section center side card footer */
+.section-center-side-card-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-center-side-card-footer div {
+    width: 50%;
+}
+
+.section-center-side-card-footer div:nth-child(2){
+    border-left-color: black;
+    border-left-width: 1px;
+    border-left-style: solid;
+    padding-left: 5%;
+    width: 100%;
+}
+
+.section-center-side-card-footer div p {
+    margin-top: 10%;
+    text-align: start;
+}
+
+/* section center side card footer end */
+
+/* section center side card end */
+
+/* section center side end */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .section-center-side {
+        margin-top: 10%;
+        width: 100%;
+    }
+
+    .section-center-side-card {
+        flex-direction: column;
+    }
+
+    .section-center-side-card img {
+        width: 100%;
+    }
+
+    .section-center-side-card div {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .section-center-side-card div p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
